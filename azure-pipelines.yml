@@ -6,8 +6,6 @@
 trigger:
 - master
 
-pool:
-  vmImage: 'centos-latest'
 strategy:
   matrix:
     Python27:
